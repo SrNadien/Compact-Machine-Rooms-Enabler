@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="crm"
+version="${mod_version}"
+displayName="Compact Machine Rooms"
+authors="${author}"
+displayURL="https://github.com/nadiendev"
+description='''
+Carga automática de datapacks desde recursos del mod y los activa en el mundo.
+'''
+
+[[dependencies.crm]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.crm]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.crm]]
+modId="compactmachines"
+type="required"
+versionRange="[7.0,)"
+ordering="AFTER"
+side="BOTH"
